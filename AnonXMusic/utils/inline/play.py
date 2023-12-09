@@ -68,10 +68,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="˹sᴏᴜʀᴄᴇ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+WRmWApnCkrJmOGFl"
             ),
             InlineKeyboardButton(
-                text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
             ),
         ],
         [
@@ -80,7 +80,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text="𓆩🖤𓆪", user_id="1777270311"),
             InlineKeyboardButton(
-                text="▹▹", url="https://t.me/+WRmWApnCkrJmOGFl"       
+                text="▹▹", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"       
             ),
         ],
     ]
