@@ -64,9 +64,25 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
-            )
+            ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [
+            InlineKeyboardButton(
+                text="˹sᴏᴜʀᴄᴇ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"
+            ),
+            InlineKeyboardButton(
+                text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="◃◃", url="https://t.me/+m4oVCt2zFhYyMTdl"),
+            InlineKeyboardButton(
+                text="𓆩🖤𓆪", user_id="1777270311"),
+            InlineKeyboardButton(
+                text="▹▹", url="https://t.me/+WRmWApnCkrJmOGFl"       
+            ),
+        ],
     ]
     return buttons
 
