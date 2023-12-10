@@ -33,7 +33,7 @@ def private_panel(_):
         [
             InlineKeyboardButton(
                 text="˹Aᴅᴅ ᴛᴏ ᴄʜᴀɴɴᴇʟ˼",
-                url=f"https://t.me/{BOT_USERNAME}?startchannel=new"
+                url=f"https://t.me/{app.username}?startchannel=new"
             ),
         ],
         [
