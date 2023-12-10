@@ -127,16 +127,37 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_3"],
+                text="˹ʟɪᴠᴇ˼",
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
-                callback_data=f"forceclose {videoid}|{user_id}",
+                text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl",
+            ),
+            InlineKeyboardButton(
+                text="˹ᴛғ ᴡᴏʀʟᴅ˼", url="https://t.me/+WRmWApnCkrJmOGFl",
             ),
         ],
+        [
+            InlineKeyboardButton(
+                text="˹ᴘʟᴀʏʟɪsᴛ˼", callback_data=f"add_playlist {videoid}",
+                ),
+            InlineKeyboardButton(
+                text="˹ᴏᴡɴᴇʀ˼", user_id="1777270311",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="˹ʏᴏᴜᴛᴜʙᴇ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw",
+             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="˹ᴄʟᴏsᴇ˼",
+                callback_data=f"forceclose {videoid}|{user_id}",
+            ),
+        ]
     ]
     return buttons
 
