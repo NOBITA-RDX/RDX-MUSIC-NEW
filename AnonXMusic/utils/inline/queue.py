@@ -76,9 +76,8 @@ def queue_markup(
 
 
 def queue_back_markup(_, CPLAY):
-    upl = InlineKeyboardMarkup(
-        [
-            [
+    upl = [
+         [
             InlineKeyboardButton(
                 text="▷",
                 callback_data=f"ADMIN Resume|{chat_id}",
