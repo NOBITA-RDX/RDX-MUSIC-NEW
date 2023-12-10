@@ -18,7 +18,7 @@ def start_panel(_):
                 url="https://t.me/+MQn7rXz1LeViZmJl"
             ),
         ],
-        [
+    ]
     return buttons
 
 
