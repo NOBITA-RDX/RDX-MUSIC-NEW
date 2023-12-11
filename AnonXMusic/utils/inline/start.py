@@ -43,8 +43,8 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_10"], url="https://t.me/+okCO84m2hZxjYTE9"),
-            InlineKeyboardButton(text=_["S_B_12"], url="https://t.me/+PtOLQT04ocMzOTJl"),
-            InlineKeyboardButton(text=_["S_B_11"], url="https://t.me/+m4oVCt2zFhYyMTdl"),
+            InlineKeyboardButton(text=_["S_B_12"], url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"),
+            InlineKeyboardButton(text=_["S_B_11"], url="https://t.me/+pAWm7GPhFYliOGI1"),
         ],
     ]
     return buttons
