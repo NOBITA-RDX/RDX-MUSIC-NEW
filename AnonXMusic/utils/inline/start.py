@@ -15,7 +15,7 @@ def start_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_13"],
-                url="https://t.me/+MQn7rXz1LeViZmJl"
+                url="https://t.me/+muWyzsc4W9JjNDJl"
             ),
         ],
     ]
@@ -35,7 +35,7 @@ def private_panel(_):
                 url="https://t.me/+PtOLQT04ocMzOTJl"),
             InlineKeyboardButton(
                 text=_["S_B_9"], 
-                url="https://t.me/+MQn7rXz1LeViZmJl"),],[
+                url="https://t.me/+muWyzsc4W9JjNDJl"),],[
             InlineKeyboardButton(text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"),],
         [
             InlineKeyboardButton(text=_["S_B_5"], user_id="1777270311"),
