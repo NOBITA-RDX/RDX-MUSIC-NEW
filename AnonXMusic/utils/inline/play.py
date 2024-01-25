@@ -92,7 +92,7 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+WRmWApnCkrJmOGFl"
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+muWyzsc4W9JjNDJl"
             ),
             InlineKeyboardButton(
                 text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
@@ -146,7 +146,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl",
             ),
             InlineKeyboardButton(
-                text="˹ᴛғ ᴡᴏʀʟᴅ˼", url="https://t.me/+WRmWApnCkrJmOGFl",
+                text="˹ᴜʀ ᴡᴏʀʟᴅ˼", url="https://t.me/+muWyzsc4W9JjNDJl",
             ),
         ],
         [
